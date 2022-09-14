@@ -1,0 +1,27 @@
+
+p{
+    color:gray;
+}
+.country{
+    color: blue;
+}
+#point1{
+    color: brown;
+}
+span.big.city{
+    color: orange;
+}
+.text>p{
+    color: lightgreen;
+}
+
+*{
+    color: cornflowerblue;
+}
+.text3 *{
+    color: goldenrod;
+}
+.the-city,
+.city2{
+    color: red;
+}
