@@ -1,0 +1,32 @@
+
+.first,
+.second{
+    color: red;
+}
+.first .tolkin{
+    color: blue;
+}
+.one.two{
+    color: peachpuff;
+}
+
+.first,
+.second{
+    color: brown;
+}
+
+.year{
+    color: red;
+}
+p.year{
+    color: yellow;
+}
+
+#top{
+color: red;
+}
+
+footer a{
+    font-size: larger;
+    color: red;
+}
