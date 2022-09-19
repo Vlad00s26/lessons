@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+@font-face {
+    font-family:"Comfortaa";
+    src: url("../fonts/Comfortaa-Light.woff2") format("woff2"), url("../fonts/Comfortaa-Light.woff")format("woff");
+    font-display: swap;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family:"Comfortaa";
+    src: url("../fonts/Comfortaa-Regular.woff2") format("woff2"), url("../fonts/Comfortaa-Regular.woff")format("woff");
+    font-display: swap;
+    font-weight: 400;
+}
