@@ -7,70 +7,87 @@ body{
     font-weight: 900;
     font-size: 46px;
     line-height: 130%;
-    width: 810px;
-    height: 120px;
-    margin: 190px 765px 92px 345px ;
+    max-width: 810px;
+    max-height: 120px;
+    margin-top: 190px;
+    margin-left: 345px;
+    margin-bottom: 92px;
     color: #1E212C;;
+    overflow: hidden;
 }
 
 img.image{
+    max-width: 810px;
     border-radius: 4px;
-    margin: 0px 765px 60px 345px;
+    margin-left: 345px;
+    margin-bottom: 60px;
+    
 }
 
 .fat{
     font-weight: 700;
     font-size: 20px;
     line-height: 150%;
-    width: 810px;
-    height: 90px;
-    margin: 0px 765px 24px 345px;
+    max-width: 810px;
+    max-height: 90px;
+    margin-left: 345px;
+    margin-bottom: 24px;
     color: #1E212C;
+    overflow: auto;
 }
 
 .block{
     font-weight: 400;
-    height: 182px;
-    width: 810px;
+    max-height: 182px;
+    max-width: 810px;
     line-height: 160%;
-    margin: 0px 765px 48px 345px;
+    margin-bottom: 48px;
+    margin-left: 345px;
     color: #424551;
+    overflow: auto;
 }
 
 .hug{
     font-weight: 700;
-    width: 752px;
-    height: 120px;
+    max-width: 752px;
+    max-height: 120px;
     font-size: 20px;
     line-height: 150%;
-    margin: 0px 765px 48px 403px;
+    margin-bottom: 48px;
+    margin-left: 403px;
     color: #1E212C;
+    overflow: hidden;
 }
 
 .list p{
     font-weight: 400;
     font-size: 16px;
     line-height: 160%;
-    width: 810px;
-    height: 52px;
-    margin: 0px 765px 24px 345px;
+    max-width: 810px;
+    max-height: 52px;
+    margin-bottom: 24px;
+    margin-left: 345px;
     color: #424551;
+    overflow: hidden;
 }
 
 ul{
-    width: 600px;
-    height: 116px;
-    margin: 0px 975px 24px 345px ;
+    max-width: 600px;
+    max-height: 116px;
+    margin-bottom: 24px;
+    margin-left: 345px;
+    overflow: hidden;
 }
 
 li{
     font-weight: 400;
     font-size: 16px;
     line-height: 160%;
-    width: 568px;
-    height: 26px;
+    max-width: 568px;
+    max-height: 26px;
     margin-left: 32px;
     color: #424551;
+    overflow: hidden;
 }
 
 .tape{
@@ -81,19 +98,21 @@ li{
     font-weight: 400;
     font-size: 16px;
     line-height: 160%;  
-    width: 810px;
-    height: 104px;
+    max-width: 810px;
+    max-height: 104px;
     margin-left: 345px;
-    margin-right: 765px;
+    margin-bottom: 100px;
     color: #424551;
+    overflow: hidden;
+    
 
 }
 
 .hard p{
     max-width: 800px;
-    height: 105px;
+    max-height: 105px;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-bottom: 30px;
     overflow: hidden;
     border: 1px solid black;
     background: rgb(193, 193, 147);
@@ -101,9 +120,8 @@ li{
 
 
 .mouse .two{
-    margin-top: 30px;
-    width: 300px;
-    height: 150px;
+    max-width: 300px;
+    max-height: 150px;
     overflow: scroll;
     border-left: 3px dotted green;
     border-top: 3px dotted rgb(96, 61, 119);
@@ -114,6 +132,7 @@ li{
 
 .big{
     opacity: 0;
+    margin-bottom: 50px;
 }
 
 .inline-first{
@@ -121,16 +140,17 @@ li{
     width: 600px;
     height: 100px;
     text-align: justify;
-    margin-top: 50px;
     margin-left: 40px;
     background: pink;
     opacity: 0.5;
     border: 4px double transparent;
     padding: 5px;
+    overflow: auto;
 }
 
 .nolook{
     visibility: hidden;
+    margin-bottom: 50px;
 }
 
 .inline-first:hover{
@@ -149,8 +169,8 @@ li{
     background: rgba(255, 71, 224, 0.559);
     box-shadow: 10px 5px 7px 5px rgb(48, 102, 133);
     margin: 0 auto;
-    margin-top: 50px;
     margin-bottom: 50px;
+    overflow: hidden;
     
 }
 
@@ -164,6 +184,7 @@ li{
     box-shadow: 5px 5px 0 black ;
     transition: all 0.3s ease 0s;
     margin-bottom: 50px;
+    overflow: hidden;
 }
 
 .unsubscribe:hover{
