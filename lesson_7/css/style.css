@@ -1,0 +1,173 @@
+
+body{
+    font-family:"Lato", "sans-serif";
+    font-style: normal;
+}
+
+.article{
+	margin-bottom: 100px;
+}
+.article__container {
+	max-width: 810px;
+	padding-top: 38px;
+
+}
+
+.title{
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    margin-bottom: 92px;
+    color: #1E212C;
+}
+
+img.image{
+    border-radius: 4px;
+    margin-bottom: 60px;
+    max-width: 100% ;
+    
+}
+
+.text{
+    margin-bottom: 24px;
+}
+.fat{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1E212C;
+}
+
+.block{
+    font-weight: 400;
+    line-height: 160%;
+    margin-bottom: 48px;
+    color: #424551;
+}
+
+.first-indent{
+    margin-bottom: 24px;
+}
+.hug{
+    font-weight: 700;
+    margin-left: 58px;
+    font-size: 20px;
+    line-height: 150%;
+    margin-bottom: 48px;
+    color: #1E212C;
+}
+
+.list{
+    margin-bottom: 24px;
+}
+.list p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    margin-bottom: 24px;
+    color: #424551;
+}
+
+ul{
+    max-width: 600px;
+    
+   
+}
+
+li{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    max-width: 568px;
+    padding-left: 32px;
+    margin-bottom: 4px;
+    color: #424551;
+   
+}
+
+
+
+.lust{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;  
+    color: #424551;
+    
+}
+
+[class*="__container"] {
+	margin: 0 auto;
+}
+
+
+.homework{
+	height: 1152px;
+	background: url(../img/hamburger128.png) repeat-y, linear-gradient(to bottom, #cb60b478 13%, #cb60b477 13%, #a8007676 47%, #db36a479 87%) ,url(../img/1189627.png) center / cover ;
+	margin-bottom: 100px;
+
+	
+	
+}
+.homework__container{
+	max-width: 800px;
+	height: 1000px;
+	background: url(../img/bobr.jpg) no-repeat bottom right/ auto 75%  ;
+	
+}
+
+.tree{
+	margin-bottom: 100px;
+}
+
+.tree__container{
+	width: 1500px;
+	height: 300px;
+	background: url(../img/beaver_job.jpg)  no-repeat center fixed;
+}
+
+footer{
+	
+	max-width: 300px;
+	margin: 0 auto;
+	margin-bottom: 100px;
+	
+}
+
+footer p{
+	display:inline-block;
+	text-align: center;
+	font-size: 20px;
+	padding: 30px;
+	border-radius: 15px;
+	box-shadow: 0px 15px 0 black;
+	background: yellow;
+	transition: all 0.3s ease 0s;
+	
+}
+
+footer p:hover{
+	margin-top: 10px;
+	box-shadow: 0px 1px 0 black;
+}
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+    
+    
