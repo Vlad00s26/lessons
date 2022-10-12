@@ -1,0 +1,438 @@
+
+body{
+	font-family: "Lato","serif";
+	color: #424551;
+}
+
+.page__container {
+	max-width: 600px;
+	margin: 0 auto;
+	margin-bottom: 100px;
+	margin-top: 100px;
+}
+
+.title {
+	max-width: 361px;
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1E212C;
+	margin-bottom: 40px;
+}
+
+.text_first {
+	font-weight: 400;
+	line-height: 160%;
+	margin-bottom: 48px;
+}
+
+.learn {
+	max-width: 176px;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 150%;
+	margin-bottom: 24px;
+	color: #1E212C;
+	
+}
+
+.list ul{
+	max-width: 568px;
+	margin-bottom: 100px;
+}
+.list li{
+	line-height: 160%;
+	padding-left: 32px;
+	background: url(../img/icons/check.svg) 0 5px no-repeat;
+	min-height: 16px;
+}
+
+.curator {
+	max-width: 392px;
+	margin-bottom: 16px;
+}
+
+.curator .first{
+	max-width: 156px;
+	margin-bottom: 8px;	
+	font-weight: 700;
+	line-height: 150%;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #1E212C;
+}
+
+.curator .second{
+	max-width: 248px;
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1E212C;
+}
+
+.senior {
+	max-width: 371px;
+	font-size: 20px;
+	line-height: 150%;
+	color: #787A80;
+	margin-bottom: 32px;
+}
+
+.list_second ul{
+	margin-bottom: 32px;
+}
+
+.list_second li{
+	margin-bottom: 4px;
+	font-weight: 700;
+	line-height: 160%;
+	padding-left: 24px;
+	min-height: 26px;
+}
+.star{
+	background: url(../img/icons/star.svg) 0 6px no-repeat;
+}
+
+.play{
+	background: url(../img/icons/play.svg) 0 6px no-repeat;
+}
+
+.bust{
+	background: url(../img/icons/bust.svg) 0 6px no-repeat;
+}
+
+
+.lust {
+	line-height: 160%;
+	margin-bottom: 50px;
+}
+
+
+.homework__container{
+	max-width: 1920px;
+	margin: 0 auto;
+	margin-bottom: 100px;
+	background-color: rgb(229, 225, 220);
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+
+.active{
+	width: 250px;
+	height: 230px;
+	outline: 3px dashed red;
+	padding: 100px;
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
+
+.active p{
+	width: 50px;
+	height: 30px;
+	text-transform: lowercase;
+}
+
+.active:active{
+	outline: 10px solid black;
+	background: green;
+	border-radius: 20px;
+}
+
+.items {
+	font-size: 36px;
+	max-width: 500px;
+	margin-left: 300px;
+	margin-bottom: 50px;
+	padding: 20px;
+	border-radius: 20px;
+	background-color: rgba(0, 128, 0, 0.749);
+}
+
+ul ul{
+	display: none;
+}
+
+li:hover ul{
+	display: block;
+}
+
+li ul li:hover{
+	color: yellow;
+}
+
+.items ul li:nth-child(4){
+	color:rgb(101, 100, 100);
+}
+
+
+
+.visited p{
+	margin-left: 20px;
+	padding: 10px;
+	text-decoration: blink;
+	width: 200px;
+	border-radius: 10px;
+	background-color: aqua;
+}
+
+.visited li{
+	margin-bottom: 4px;
+}
+
+.visited a:visited{
+	color: red;
+}
+
+.visited a:hover{
+	text-decoration: underline;
+}
+
+body:focus {
+	outline: 5px dotted black;
+}
+.visited {
+	max-width: 800px;
+	margin: 0 auto;
+	font-size: 36px;
+	background-color: rgba(143, 48, 48, 0.252);
+	padding: 20px;
+	margin-bottom: 50px;
+	display: none;
+}
+
+.visited:target{
+	display: block;
+}
+
+.first-child{
+	max-width: 600px;
+	background-color: blue;
+	margin-left: 600px;
+	padding: 15px;
+	border-radius: 10px;
+	outline: 3px solid red;
+	line-height: 130%;
+	margin-bottom: 50px;
+}
+
+.first-child ul li:first-child{
+	text-transform: uppercase;
+	color: greenyellow;
+}
+
+.first-child ul li:nth-child(even){
+	text-decoration: line-through;
+}
+
+
+.first-child p{
+	padding-left: 20px;
+}
+
+.first-child div:first-of-type{
+	padding-left: 10px;
+	color: red;
+}
+
+.first-child ul:not(:last-child){
+	margin-bottom: 50px;
+}
+
+.first-child ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+
+.first-child p:not(:last-child){
+	margin-bottom: 20px;
+}
+
+.first-child div:not(:last-child){
+	margin-bottom: 50px;
+}
+
+.pseudo-elements {
+	max-width: 700px;
+	margin: 0 auto;
+	margin-bottom: 100px;
+	background: pink;
+	padding: 15px;
+	outline: 5px double transparent;
+}
+
+.pseudo-elements:hover{
+	outline: 5px double purple;
+}
+
+
+.pseudo-elements h2{
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	color: peru;
+}
+
+
+
+ol li:not(:last-child){
+	margin-bottom: 10px;
+}
+
+
+ol li::before{
+	content: "";
+	background: url(../img/icons8-squidward-tentacles-36.svg) 0 0 no-repeat;
+	width: 36px;
+	height: 36px;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+ol li:hover::before{
+	transition: all 2s ease 0s;
+	transform: rotate(360deg);
+}
+
+.click p{
+	max-width: 750px;
+	text-transform: uppercase;
+	font-size: 60px;
+	color: greenyellow;
+	text-shadow: 5px 2px 2px green;
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+
+.game{
+	display: none;
+}
+
+.game:target{
+	display: block;
+}
+
+.game__container{
+	max-width: 900px;
+	background:blueviolet ;
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+
+.game__container .picture1{
+	max-width: 100%;
+	padding: 20px;
+	margin-bottom: 50px;
+}
+
+.game__container :nth-child(2) {
+	width: 30px;
+	margin-left: 88px;
+	font-size:  36px;
+	margin-bottom: 5px;
+	
+	
+}
+
+.arrow{
+	width: 30px;
+	margin-left: 120px;
+	font-size: 36px;
+	margin-bottom: 2px;
+
+}
+
+.box1 {
+	display: inline-block;
+	width: 50px;
+	height: 250px;
+	background-color: orange;
+	margin-left: 100px;
+	
+	
+}
+
+.box2{
+	display: inline-block;
+	height: 30px;
+	width: 600px;
+	background-color: orange;
+	margin-left: -50px;
+}
+
+.box3{
+	height: 200px;
+	width: 25px;
+	background-color: orange;
+	margin-left: 679px;
+	margin-top: -31px;
+	display: inline-block;
+}
+
+
+.box4{
+	height: 22px;
+	width: 300px;
+	background: orange;
+	display: inline-block;
+	margin-left: 404px;
+	margin-top: -23px;
+}
+
+.box5{
+	width: 22px;
+	height: 150px;
+	background: orange;
+	margin-left: 404px;
+	margin-top: -23px;
+	display: inline-block;
+}
+
+.box6{
+	width: 22px;
+	height: 30px;
+	opacity: 0;
+	margin-left: -25px;
+	margin-top: -23px;
+	display: inline-block;
+}
+
+.box1,.box2,.box3,.box4,.box5{
+	
+	visibility: hidden;
+}
+
+.arrow:hover + .box1, 
+.box1:hover,
+.box1:hover + .box2, 
+.box2:hover,
+.box2:hover + .box3,
+.box3:hover,
+.box3:hover + .box4,
+.box4:hover,
+.box4:hover + .box5,
+.box5:hover
+{
+	visibility: visible;
+}
+
+.game__container .picture2 {
+	max-width: 100%;
+	padding: 20px;
+	visibility: hidden;
+}
+
+
+.box5:hover + .picture2{
+	visibility: visible;
+}
+
+
+
+
+
+
+
+
+    
+    
