@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+.wrapper{
+	overflow: hidden;
+	min-height: 100%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	/* background: linear-gradient(55.95deg, rgba(255, 64, 58, 0.2) 0%, rgba(247, 94, 5, 0.2) 100%); */
+}
+
+body{
+	font-family: "Lato";
+	color: #1E212C;
+}
+
+[class*="__container"]{
+	max-width: 1260px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+/* ===============================Шапка===============================*/
+
+.header{
+	z-index: 50;
+	padding: 20px 0 ;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	/* border: 2px dotted black; */
+}
+
+.header__container{
+	display: flex;
+	gap: 60px;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.header__logo img:hover{
+	transition: scale 0.3s linear 0s;
+	transform: scale 1.05;
+}
+
+.header__menu{
+	flex-grow: 1;
+	color: #424551;
+	font-weight: 700;
+}
+
+.menu__list{
+	display: flex;
+	column-gap: 40px;
+	row-gap: 10px;
+	flex-wrap: wrap;
+	line-height: 1.6;
+}
+
+.menu__item a{
+	position: relative;
+}
+.menu__item a::before{
+	content: "";
+	position: absolute;
+	bottom: -1px;
+	left: 0;
+	width: 0%;
+	height: 2px;
+	background-color: black;
+	transition: width 0.2s linear 0s;
+}
+
+.menu__item a:hover::before{
+	width: 100%;
+}
+
+.entry{
+	display: flex;
+	align-items: center;
+	gap: 38px;
+}
+
+.entry__enter{
+	background: url(../img/icons/user.svg) left no-repeat;
+	padding-left: 27px;
+	font-weight: 700;
+	line-height: 1.6;
+	color: #424551;
+}
+
+.entry span{
+	position: relative;
+}
+.entry span::before{
+	content: "";
+	position: absolute;
+	bottom: -1px;
+	left: 0;
+	width: 0%;	
+	height: 2px;
+	background-color: black;
+	transition: width 0.2s linear 0s;
+}
+
+.entry span:hover::before {
+	width: 100%;
+}
+
+/* ===============================Шапка===============================*/
+
+.main-block{
+	padding: 195px 0 80px 0;
+	background: linear-gradient(55.95deg, rgba(255, 64, 58, 0.2) 0%, rgba(247, 94, 5, 0.2) 100%);
+	position: relative;
+	overflow: hidden;
+}
+
+.main-block__container{
+	
+}
+
+.column{
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 189px;
+}
+
+.first-column{
+	flex: 0 1 50%;
+}
+.second-column{
+	flex: 0 1 50%;
+}
+
+.second-column img{
+	max-width: 107.8%;
+	transform: translate(7.8%, 0px);
+}
+
+.first-column__showreel a{
+	position: relative;
+	display:inline-flex;
+	gap: 17px;
+	align-items: center;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.7;
+}
+
+.first-column__showreel:not(:last-child){
+	margin-bottom: 60px;
+}
+
+.first-column__showreel a{
+	position: relative;
+}
+
+.first-column__showreel a::before{
+	content: "";
+	width: 52px;
+	height: 52px;
+	border-radius: 50%;
+	background: #FF3F3A url(../img/icons/triangle.svg) center no-repeat;
+	z-index: 2;
+}
+
+.first-column__showreel a::after{
+	content: "";
+	width: 52px;
+	height: 52px;
+	border-radius: 50%;
+	position: absolute;
+	left: 0;
+	background: #FF3F3A;
+	opacity: 0.12;
+	transform: scale(1.6);
+	animation: pulse 1.5s linear 0s infinite normal backwards;
+}
+
+@keyframes pulse{
+	0%{
+		transform:scale(1.6) ;
+	}
+	100%{
+		opacity: 0;
+		transform: scale(2.5);
+	}
+}
+
+.first-column__text{
+	font-weight: 900;
+	font-size: 64px;
+	line-height: 1.3;
+	max-width: 500px;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.first-column__text:not(:last-child){
+	margin-bottom: 60px;
+}
+
+.down{
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.down-item{
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.down-item__value{
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 1.4;
+}
+
+.down-item__text{
+	font-weight: 400;
+	line-height: 1.6;
+}
+
+.down__circle{
+	width: 8px;
+	height: 8px;
+	background: #FF3F3A;
+	border-radius: 50px;
+}
+
+.main-block__decor {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.decor {}
+
+.decor__item {
+	position: absolute;
+}
+
+.decor__item--1 {
+	background: url(../img/decor/decor_1.svg) 0 0 no-repeat;
+	width: 110px;
+	height: 110px;
+	right: 5%;
+	top: -4.2%;
+}
+
+.decor__item--2 {
+	background: url(../img/decor/decor_2.svg) 0 0 no-repeat;
+	width: 96px;
+	height: 96px;
+	left: 4.2%;
+	top: 12%;
+}
+
+.decor__item--3 {
+	background: url(../img/decor/decor_3.svg) 0 0 no-repeat;
+	width: 88px;
+	height: 47px;
+	left: 40%;
+	top: 45%;
+}
+
+.decor__item--4 {
+		background: url(../img/decor/decor_4.svg) 0 0 no-repeat;
+		width: 61px;
+		height: 61px;
+		left: 38%;
+		top: 70%;
+}
+
+.decor__item--5 {
+	background: url(../img/decor/decor_5.svg) 0 0 no-repeat;
+	width: 187px;
+	height: 137px;
+	right: -1.5%;
+	top: 70%;
+}
+
+.decor__item--6 {
+	background: url(../img/decor/decor_6.svg) 0 0 no-repeat;
+	width: 284px;
+	height: 284px;
+	left: -5.8%;
+	bottom: -9.2%;
+}
+
+/* ===============================Основний__блок===============================*/
+
+
+.second-block{
+	position: relative;
+}
+
+.second-block__container{
+	display: flex;
+	margin-top: 185px;
+	margin-bottom: 100px;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.second-block__image{
+	flex: 0 1 57%;
+}
+
+.rubric{
+	flex: 0 1 32%;
+	max-width: 390px;
+}
+
+.rubric__title-one{
+	font-weight: 700;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.rubric__title-one:not(:last-child){
+	margin-bottom: 8px;
+}
+
+.rubric__title-two{
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 1.3;
+}
+
+.rubric__title-two:not(:last-child) {
+	margin-bottom: 40px;
+}
+
+.rubric__list{
+	margin-bottom: 22px;
+}
+
+.rubric__list li{
+	line-height: 1.6;
+	padding-left: 32px;
+	color: #424551;
+	background: url(../img/icons/check.svg) 0 5px no-repeat ;
+}
+
+.rubric__list li:not(:last-child) {
+	margin-bottom: 12px;
+}
+
+
+.second-block__decor {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.addition {}
+
+.adittion__item {
+	position: absolute;
+}
+
+.adittion__item--1 {
+	background: url(../img/decor/decor_7.svg) 0 0 no-repeat;
+	width: 132px;
+	height: 220px;
+	bottom: 50%;
+	left: 0;
+}
+
+.adittion__item--2 {
+	background: url(../img/decor/decor_8.svg) 0 0 no-repeat;
+	width: 287px;
+	height: 287px;
+	bottom: 3%;
+	right: -7%;
+}
